@@ -1,0 +1,266 @@
+/*****************************************************/
+/* CSS -- http://paarberatung-basel.ch
+/*****************************************************/
+/*
+/* Copyright: Cora Burgdorfer, 2012
+/*
+
+/*****************************************************/
+/* Main
+/*****************************************************/
+
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	text-align: center; /* for IE */
+	min-width: 800px;
+	padding-top: 50px;
+}
+
+/*****************************************************/
+/* Header
+/*****************************************************/
+
+#header {
+	display: block;
+	margin: 0 auto;
+	text-align: center; /* for IE */
+	width: 800px;
+}
+
+#header ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header ul li {
+	display: inline;
+	list-style: none;
+	font-family: Helvetica,Arial,Sans-Serif;
+	margin: 0;
+	padding: 0;
+}
+
+#header ul li a {
+	display: block;
+	float: left;
+	text-align: center;
+	background: lightgrey;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	left: 30px;
+	line-height: 1.3em;
+	margin: 0 0 0 1px;
+	padding: 3px 10px;
+}
+
+#header ul li a:hover {
+	background: grey;
+	color: white;
+}
+
+#header ul li a.active,#header ul li a.active:hover {
+	color: white;
+	background: #9AB973;
+	font-weight: bold;
+}
+
+/*****************************************************/
+/* Background
+/*****************************************************/
+
+#wrapper {
+	clear: both;
+	display: block;
+	position: relative;
+	text-align: left;  /* for IE */
+	margin: 0 auto; /* for the rest */
+	background: #9AB973;
+	width: 800px;
+	height: 900px;
+	padding-top: 50px;
+}
+
+#wrapper img {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 224px;
+	border: none;
+	z-index: 1;
+}
+
+/*****************************************************/
+/* Text
+/*****************************************************/
+
+#textbox {
+	position: relative;
+	background: white;
+	width: 630px;
+	height: 800px;
+	left: 150px;
+}
+
+#textbox p ul li{
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+}
+
+#textbox li{
+	margin-left: 30px;
+}
+
+#textbox  h1 {
+	font-family: Helvetica,Arial,Sans-Serif;
+	font-size: x-large;
+	font-weight: normal;
+}
+
+#textbox  h3 {
+	font-family: Helvetica,Arial,Sans-Serif;
+	font-size: large;
+	font-weight: normal;
+}
+
+#lead-text {
+	position: absolute;
+	top: 50px;
+	padding-left: 180px;
+	padding-right: 20px;
+}
+
+#lead-text p {
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#message-text {
+	position: absolute;
+	top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 590px;
+}
+
+#message-text p {
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#angebot-text {
+	position: absolute;
+	top: 120px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 590px;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Georgia, Serif;
+}
+
+#main-text {
+	position: absolute;
+	top: 330px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 590px;
+}
+
+#copyright {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center; /* for IE */
+	font-family: Georgia, Serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/*****************************************************/
+/* Linkbox
+/*****************************************************/
+
+#linkbox {
+	position: absolute;
+	background: lightgrey;
+	top: 80px;
+	left: 60px;
+	width: 250px;
+	z-index: 1;
+}
+
+#linkbox ul {
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+}
+
+#linkbox ul li a {
+	color: black;
+	list-style: none;
+	font-family: Helvetica,Arial,Sans-Serif;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+#linkbox ul li a:hover {
+	font-weight: bold;
+}
+
+#linkbox ul li a.active, #linkbox ul li a.active:hover {
+	font-weight: bold;
+}
+
+/*****************************************************/
+/* Form
+/*****************************************************/
+
+.formLabel {
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	font-weight: normal;
+	width: 160px;
+}
+
+.formInput {
+	width: 200px;
+}
+
+.button {
+	font-family: Helvetica,Arial,Sans-Serif;
+}
+
+/*****************************************************/
+/* CV
+/*****************************************************/
+
+#cv {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+#cv td {
+	font-family: Georgia, Serif;
+	font-weight: normal;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+#cv td.date {
+	width: 110px;
+}
