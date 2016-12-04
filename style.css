@@ -2,7 +2,7 @@
 /* CSS -- http://paarberatung-basel.ch
 /*****************************************************/
 /*
-/* Copyright: Cora Burgdorfer, 2012
+/* Copyright: Cora Burgdorfer, 2016
 /*
 
 /*****************************************************/
@@ -249,18 +249,18 @@ body {
 /* CV
 /*****************************************************/
 
-#cv {
+.cv {
 	padding-top: 5px;
 	padding-bottom: 20px;
 }
 
-#cv td {
+.cv td {
 	font-family: Georgia, Serif;
 	font-weight: normal;
 	font-size: 16px;
 	vertical-align: top;
 }
 
-#cv td.date {
-	width: 110px;
+.cv td.date {
+	width: 100px;
 }
