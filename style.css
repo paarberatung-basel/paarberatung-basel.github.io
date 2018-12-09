@@ -87,7 +87,7 @@ body {
 	padding-top: 50px;
 }
 
-#wrapper img {
+#wrapper img, .map {
 	position: absolute;
 	top: 80px;
 	left: 60px;
