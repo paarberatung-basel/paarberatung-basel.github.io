@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang="de">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	  <title>Praxis f&uuml;r Psychologische Beratung und Begleitung | Kontakt &amp; Anmeldung</title>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
 	  <meta name="keywords" content="kontakt, cora burgdorfer, basel"/>
 	  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	  <link rel="stylesheet" type="text/css" href="style.css" />
@@ -17,7 +17,7 @@
 		</ul>
     </div>
 	<div id="wrapper">
-		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10771.223821828633!2d7.582815737892566!3d47.55210525441865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b901f9b5ba89%3A0x782e4bdfae91dd1!2sBlauenstrasse+61%2C+4054+Basel!5e0!3m2!1sen!2sch!4v1544365846724" height="283" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<a href="https://www.google.com/maps/place/Blauenstrasse+61,+4054+Basel,+Schweiz/@47.5539042,7.5706278,17z/data=!3m1!4b1!4m5!3m4!1s0x4791b901f9b5ba89:0x782e4bdfae91dd1!8m2!3d47.5539006!4d7.5728165" target="_blank"><img src="images/map.gif"/></a>
 		<div id="textbox">
 			<div id="lead-text">
 				<h1>Kontakt</h1>
@@ -30,8 +30,81 @@
 				078 626 21 77 | <a href="mailto:info@paarberatung-basel.ch">info@paarberatung-basel.ch</a><br/>
 				</p>
 			</div>
-        </div>
-    </div>
-	<div id="copyright">&copy; Cora Burgdorfer 2018</div>
+			<div id="main-text">
+					<form method="post" action="http://www.startlogic.com/scripts/formemail.bml">
+						<input type="hidden" name="my_email" value="info@paarberatung-basel.ch"/>
+						<input type="hidden" name="order" value="name, vorname, email, strasse, plz, ort, tel, kommentar">
+						<input type="hidden" name="thankyou_url" value="http://paarberatung-basel.ch/kontakt_danke.html">
+						<input type="hidden" name="error_url" value="http://paarberatung-basel.ch/kontakt_oops.html">
+						<table>
+							<tbody>
+								<tr>
+									<td class="formLabel">Name:</td>
+									<td><input name="name" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel">Vorname:</td>
+									<td><input name="vorname" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel">E-Mail-Adresse:</td>
+
+									<td><input name="email" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel">Strasse:</td>
+
+									<td><input name="strasse" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel">PLZ:</td>
+									<td><input name="plz" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel">Ort:</td>
+									<td><input name="ort" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel">Telefon-Nummer:</td>
+									<td><input name="tel" class="formInput"/></td>
+								</tr>
+								<tr>
+									<td class="formLabel" valign="top">Kommentar:</td>
+									<td><textarea cols="35" rows="7" name="kommentar"></textarea></td>
+								</tr>
+								<tr>
+									<td/>
+									<td>
+										<input class="button" type="submit" name="submit" value="Absenden"/>
+										<input class="button" type="reset" name="reset" value="L&ouml;schen"/>
+									</td>
+
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">&copy; Cora Burgdorfer 2016</div>
+	<!-- google analytics site tracking -->
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+	</script>
+
+	<script type="text/javascript">
+
+	try {
+
+	var pageTracker = _gat._getTracker("UA-6359436-1");
+
+	pageTracker._trackPageview();
+
+	} catch(err) {}
+	</script>
 </body>
 </html>
